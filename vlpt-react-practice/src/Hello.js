@@ -1,6 +1,6 @@
 import React from 'react';
 
-function hello() {
+function Hello() {
     return <div>Hello!</div>
 }
 
