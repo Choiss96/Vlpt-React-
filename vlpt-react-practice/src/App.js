@@ -1,13 +1,26 @@
 import React from 'react';
-import Hello from './Hello';
-import Wrapper from './Wrapper';
-import Counter from './Counter';
-import InputSample from './InputSample';
+
+import UserList from './UserList';
 
 function App() {
-  return (
-    <InputSample />
-  )
+  const users = [
+    {
+      id: 1,
+      username: 'velopert',
+      email: 'public.velopert@gmail.com'
+    },
+    {
+      id: 2,
+      username: 'tester',
+      email: 'tester@example.com'
+    },
+    {
+      id: 3,
+      username: 'liz',
+      email: 'liz@example.com'
+    }
+  ];
+  return <UserList users={users} />;
 }
 
 export default App;
