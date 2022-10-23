@@ -18,6 +18,11 @@ function App() {
       id: 3,
       username: 'liz',
       email: 'liz@example.com'
+    }, 
+    {
+      id: 4,
+      username: 'tsst',
+      email: 'aaa@has.com'
     }
   ];
   return <UserList users={users} />;
